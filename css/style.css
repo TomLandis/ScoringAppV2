@@ -1,0 +1,108 @@
+h1{
+  font-size:4rem;
+  line-height: 0px;
+}
+h2{
+  font-size:3rem;
+}
+.raw{
+  display:flex;
+  justify-content: space-around;
+  text-align:center;
+}
+#sb{ 
+  display:flex;
+  justify-content:space-around;
+  min-width:220px;
+  padding-bottom: 20px;
+
+}
+.righty{
+  background-color:#ce180e;
+}
+.left{
+  background-color:#0040a8;
+}
+.left, .righty{
+  display:flex;
+  flex-direction:column;
+  justify-content: space-around;
+  align-items: center;
+  color: white;
+  width:40vw;
+  min-height:50vh;
+ text-align:center;
+  min-width:110px;
+  padding-bottom: 20px;
+  border-radius: 12px;
+  margin-top: 5px;
+  
+}
+button:focus {
+  outline: none;
+}
+#switch{
+  
+}
+.plus{
+  
+  
+ 
+  border: 0px solid blue;
+  font-size: 4em;
+  border-radius: 1000px;
+    
+}
+
+.minus{
+   
+  padding: 0px;
+ margin-top: -30px;
+  border: 0px solid blue;
+  font-size: 7em;
+  
+  color:white;
+}
+button{
+  
+  margin:11px;
+  font-size: 18px;
+}
+div, button, body{
+  font-family: 'Arvo', serif;
+}
+#switch{
+  border-radius: 12px;
+  border: 5px solid #0040a8;
+  width:60vw;
+  color:white;
+  font-size:30px;
+  padding:0px;
+  height:45px;
+  background-color: #ce180e
+}
+.rig{
+  border-radius: 12px;
+  border: 0px solid white;
+  background-color:#0040a8;
+  color: white;
+  font-size:2em;
+}
+.lef{
+    border-radius: 12px;
+  border: 0px solid white;
+  background-color:#ce180e;
+  color:white;
+  font-size:2em;
+}
+.wrap{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+.game, .set{
+  width: 30vw;
+  height: 15vh;
+  font-size:3rem;
+}
